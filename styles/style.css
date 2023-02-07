@@ -1,0 +1,23 @@
+@import url(/styles/header.css);
+@import url(/styles/sobreNos.css);
+
+:root {
+    --fonte-principal: 'Inter';
+    --azul-escuro: #101828;
+    --cinza-escuro: #3A404E;
+    --cinza-medio: #667085;
+    --cinza-claro: #98A2B3;
+    --vermelho-principal: #8E2424;
+    --vermelho-5porcento: rgba(142, 36, 36, 0.05);
+    --vermelho-3porcento: rgba(195, 25, 25, 0.03);
+    --branco: #FFFFFF;
+    --branco-rodape: #F9FAFB;
+    --preto: #000000;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--branco);
+}

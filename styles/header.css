@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.logotipo {
+  display: flex;
+  align-items: center;
+}
+
+.logotipo__titulo {
+  color: var(--cinza-escuro);
+  font-size: 18px;
+  margin-left: 0.5em;
+}
+
+.lista__paginas,
+.botões {
+  display: flex;
+  align-items: center;
+}
+
+.paginas__item {
+  padding: 0.8em;
+}
+
+.paginas__link {
+  text-decoration: none;
+  color: var(--cinza-medio);
+}
+
+.botão__entrar {
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.botão__entrar-link {
+  text-decoration: none;
+  color: var(--cinza-medio);
+}
+
+.botão__cadastrar {
+  padding: 1em;
+  border-radius: 8px;
+  background-color: var(--vermelho-principal);
+  margin-left: 0.5em;
+}
+
+.botão__cadastrar-link {
+  text-decoration: none;
+  color: var(--branco);
+}
