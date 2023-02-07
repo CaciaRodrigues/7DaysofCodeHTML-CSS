@@ -1,0 +1,34 @@
+.status {
+    padding: 1.5em 0;
+}
+
+.status__lista {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em 3em;
+}
+
+.status__item{
+    width: 20%;
+    padding:  1em 2.5em;
+
+}
+
+.status__item-numero {
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: -0.02em;
+    color: var(--vermelho-principal);
+}
+
+.status__item-titulo {
+    font-size: 18px;
+    color: var(--azul-escuro);
+    margin: 1em 0 0.5em 0;
+
+}
+
+.status__descrição {
+    font-weight: 400;
+    color: var(--cinza-medio);
+}
