@@ -30,9 +30,17 @@
   color: var(--cinza-medio);
 }
 
+.paginas__link:hover {
+  color: var(--cinza-escuro);
+}
+
 .botão__entrar {
   padding: 1em;
   border-radius: 8px;
+}
+
+.botão__entrar:hover {
+  background-color: var(--cinza-claro);
 }
 
 .botão__entrar-link {
@@ -40,11 +48,19 @@
   color: var(--cinza-medio);
 }
 
+.botão__entrar:hover > .botão__entrar-link {
+  color: var(--branco);
+}
+
 .botão__cadastrar {
   padding: 1em;
   border-radius: 8px;
   background-color: var(--vermelho-principal);
   margin-left: 0.5em;
+}
+
+.botão__cadastrar:hover {
+  background-color: var(--vermelho-escuro);
 }
 
 .botão__cadastrar-link {

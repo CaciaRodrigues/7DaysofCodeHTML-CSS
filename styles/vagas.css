@@ -1,0 +1,85 @@
+.vagas__banner {
+text-align: center;
+padding: 2em;
+}
+
+.banner__intro {
+    background-color: var(--vermelho-5porcento);
+    padding: 0.4em 0.75em;
+    border-radius: 16px;
+    color: var(--vermelho-principal);
+    font-size: 14px;
+}
+
+.banner__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: var(--azul-escuro);
+    margin: 0.7em 0;
+}
+
+.banner__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-medio);
+} 
+
+.banner__imagem {
+    width: 80vw;
+    margin: 2.5em 0;
+}
+
+.vagas__listas {
+  margin: 1em 10em;
+}
+
+.lista__design, .lista__dev {
+    padding: 3em 4em;
+}
+
+.lista__titulo {
+    color: var(--azul-escuro);
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.lista__item {
+    padding: 2em;
+    width: 80%;
+    border: 1px solid var(--cinza-borda);
+    border-radius: 16px;
+    margin-bottom: 1em;
+}
+
+.lista_link {
+    text-decoration: none;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 25%);
+    grid-template-areas: 
+        "vaga-titulo vaga-titulo "
+        "vaga-tipo vaga-salario "
+        ;
+}
+
+.lista__item:hover {
+    background-color: var(--cinza-borda);
+}
+
+.link__titulo {
+    color: var(--azul-escuro);
+    font-size: 18px;
+    grid-area: vaga-titulo;
+    margin-bottom: 2em;
+}
+
+.link__tipo {
+    color: var(--cinza-medio);
+    grid-area: vaga-tipo;
+}
+
+.link__texto  {
+    color: var(--cinza-medio);
+    grid-area: vaga-salario;
+}
+
