@@ -1,0 +1,40 @@
+.opinião {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2em 0;
+}
+
+.opinião__container {
+    width: 80%;
+    text-align: center;
+    padding: 2.5em 1.5em;
+    background-color: var(--vermelho-3porcento);
+    border-radius: 16px;
+}
+
+.opinião__intro {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vermelho-principal);
+}
+
+
+
+.opinião__texto {
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: var(--azul-escuro);
+    margin: 0.5em 0 1em 0;
+}
+
+.colaborador__nome {
+    color: var(--azul-escuro);
+    margin: 1em 0 0.5em 0;
+}
+
+.colaborador__cargo {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cinza-medio);
+}
